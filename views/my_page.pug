@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 My route
+  p This is my custom Pug page created as part of practical task №7.
+
+  p Below is a list of items passed from the Express route:
+
+  ul
+    each item in items
+      li= item
+
