@@ -539,7 +539,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(compression());
 app.use(helmet());
 
-// Helmet CSP settings
 app.use(
   helmet.contentSecurityPolicy({
     directives: {
